@@ -3,6 +3,7 @@
 ## https://github.com/elastic/elasticsearch/blob/master/distribution/docker/src/docker/config/elasticsearch.yml
 #
 cluster.name: "docker-cluster"
+cluster.max_shards_per_node: 5000
 network.host: 0.0.0.0
 
 ## X-Pack settings
